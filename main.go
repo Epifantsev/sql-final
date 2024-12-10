@@ -102,8 +102,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("Hellow world")
-	fmt.Println("hellow world")
 
 	store := NewParcelStore(db)
 	service := NewParcelService(store)
